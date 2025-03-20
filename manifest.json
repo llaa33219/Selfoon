@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "엔트리-Selfoon",
+    "version": "1.0",
+    "description": "작품 만들기를 모바일 레이아웃으로 변경해 줍니다",
+    "content_scripts": [
+      {
+        "matches": ["https://playentry.org/ws/*"],
+        "js": ["content.js"],
+        "css": ["style.css"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  
